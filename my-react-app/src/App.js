@@ -3,12 +3,14 @@ import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import Login from './components/Login';
 import Inicio from './components/Inicio';
 
+const a = 0;
+
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path = '/' element = {<Login/>}/>
-        <Route path = '/inicio' element = {<Inicio/>}/>
+        <Route exact path = '/' element = {<Login/>}/>
+        <Route exact path = '/inicio' element = {<Inicio/>}/>
       </Routes>
     </Router>
   );
