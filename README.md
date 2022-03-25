@@ -11,6 +11,8 @@
 
 2. Install **Eslint** plugin
 
+<img align="center" src="img/2.PNG">
+
 <img align="center" src="img/eslint.PNG">
 
 ## Part 2: Eslint
@@ -50,6 +52,7 @@ Eslint Funcionando
 4. On the User configuration open ***Text Editor / Formatting***
 5. Click on **Format On Save** checkbox.
 
+<img align="center" src="img/format.PNG">
 
 ## Part 4: Husky
 1. run ***npm i -D husky***
